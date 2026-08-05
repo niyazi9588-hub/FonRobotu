@@ -1,4 +1,4 @@
-[app]
+BBC[app]
 title = Quant Pro
 package.name = quantpro
 package.domain = org.quantpro
