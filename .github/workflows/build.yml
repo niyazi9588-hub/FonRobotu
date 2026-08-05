@@ -1,4 +1,4 @@
-Name: Kivy Android APK Build
+name: Kivy Android APK Build
 
 on:
   push:
