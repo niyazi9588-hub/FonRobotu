@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
     - name: Checkout Code
@@ -35,7 +35,8 @@ jobs:
             libswscale-dev \
             libavformat-dev \
             libavcodec-dev \
-            zlib1g-dev
+            zlib1g-dev \
+            pkg-config
 
     - name: Install Buildozer and Cython
       run: |
@@ -51,4 +52,4 @@ jobs:
       with:
         name: package
         path: bin/*.apk
-        
+
