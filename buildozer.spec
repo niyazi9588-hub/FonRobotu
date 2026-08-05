@@ -10,5 +10,5 @@ android.permissions = INTERNET
 android.accept_sdk_license = True
 android.api = 33
 android.minapi = 21
-android.ndk = 25c
+android.ndk = 28c
 orientation = portrait
